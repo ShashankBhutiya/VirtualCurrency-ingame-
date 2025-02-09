@@ -1,7 +1,7 @@
 /* styles.css */
 
 /* CSS Variables for Themes */
-.dark-theme  {
+:root  {
     --primary-color: #4a90e2;
     --bg-color: #f4f4f9;
     --text-color: #000000;
@@ -10,7 +10,7 @@
     --island-bg-color: #fff;
 }
 
-:root {
+.dark-theme {
     --primary-color: linear-gradient(45deg, #1326ef, #25e01c);
     --bg-color: linear-gradient(45deg, #1326ef, #25e01c);
     --text-color: #172c11;
